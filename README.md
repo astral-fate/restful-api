@@ -42,7 +42,6 @@ We tried a POST requset with the following server
    @app.route('/add_two_nums', methods=['POST'])
    def add_two_nums():
        dataDict=request.get_json()
-
        return jsonify(dataDict)
 
 
