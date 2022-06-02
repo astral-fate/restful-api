@@ -24,7 +24,9 @@ Downlaoding Postman using the follwing commands
      get https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
      sudo tar -xzf postman.tar.gz -C /opt
      rm postman.tar.gz
-     sudo ln -s /opt/Postman/Postman /usr/bin/postman
+     sudo ln -s /opt/Postman/Postman /usr/bin/postman 
+
+
      
 Then we write
 
@@ -38,11 +40,10 @@ it will open the interface for us
 
 We tried a POST requset with the following server
 
-
-   @app.route('/add_two_nums', methods=['POST'])
-   def add_two_nums():
-       dataDict=request.get_json()
-       return jsonify(dataDict)
+     @app.route('/add_two_nums', methods=['POST'])
+     def add_two_nums():
+        dataDict=request.get_json()
+        return jsonify(dataDict)
 
 
 ![image](https://user-images.githubusercontent.com/63984422/171554885-535b5c1c-2517-4ad3-ba40-daf72784d416.png)
