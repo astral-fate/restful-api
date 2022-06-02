@@ -35,3 +35,17 @@ it will open the interface for us
 
 ![image](https://user-images.githubusercontent.com/63984422/171550401-931f9c50-eb19-488c-80d9-e28439e5c5aa.png)
 
+
+We tried a POST requset with the following server
+
+
+@app.route('/add_two_nums', methods=['POST'])
+def add_two_nums():
+    dataDict=request.get_json()
+
+    return jsonify(dataDict)
+
+
+![image](https://user-images.githubusercontent.com/63984422/171554885-535b5c1c-2517-4ad3-ba40-daf72784d416.png)
+
+
