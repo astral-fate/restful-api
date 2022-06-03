@@ -80,7 +80,7 @@ to check it was installed
 
 we have to first import Api, and Resource library from flask
 
-     import flask from Flask, Api, Resource
+     from flask_restful import Resource, Api
      
      
 The resources can either be (+, -, /, * )
@@ -89,7 +89,7 @@ The resources can either be (+, -, /, * )
 ## Setting our Api
 
 
-      import Api
+     
       app = Flask(__name__)
       api = Api(app)
       
@@ -98,6 +98,10 @@ The resources can either be (+, -, /, * )
 
      Resource(+, -, /, * ) Method(POST, GET, PUT, DELETE) PATH(/NameOfPath) usedfor Parameter ErrorCode
      
+
+## Defining the path 
+
+   api.add_resource(AddNumbers,"/Add")
 
 ## Example on RESTFUL API 
 
