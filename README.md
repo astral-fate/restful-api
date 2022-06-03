@@ -18,6 +18,7 @@
 
 
 
+
 Downlaoding Postman using the follwing commands
 
 
@@ -49,6 +50,17 @@ We tried a POST requset with the following server
 ![image](https://user-images.githubusercontent.com/63984422/171554885-535b5c1c-2517-4ad3-ba40-daf72784d416.png)
 
 
+
+##What is a REST-FUL API?
+
+RESTFUL APIs are a style of server, that allow us to interract between the user interface and the requested info from the front-end user, then we procces the requests of the user, to provides the user with a response.
+
+
+
+##installing flask-restful 
+
+
+
 We install flask_restful as follows
 
       pip3 install flask-restful
@@ -59,5 +71,60 @@ to check it was installed
       
 ![image](https://user-images.githubusercontent.com/63984422/171782651-7b35571c-ebd1-4410-bce9-5753b609a188.png)
       
+
+
+
+
+##Restful API Resource Method Chart
+
+
+we have to first import Resource library from flask
+
+     import flask from Flask, Resource
+     
+     
+The resources can either be (+, -, /, * )
+
+##The syntax for creating an api
+
+     Resource(+, -, /, * ) Method(POST, GET, PUT, DELETE) PATH(/NameOfPath) usedfor Parameter ErrorCode
+     
+
+##Example on RESTFUL API 
+
+
+We first have to define a class for our Api, for example
+
+     class AddNumber(Resource):
+     pass
+     
+     
+     
+     class SubNumber(Resource)
+     pass
+     
+     
+     class MultyNumber(Resource)
+     pass
+     
+     
+     class DivideNumber(Resource)
+     pass
+     
+
+
+We  first want to focus on one class, that is AddNumber, hence we will be adding a new function o our class:
+
+     class AddNumbers(Resource):
+     def post(itself)
+        pass
+
+
+##Getting the posted data  
+
+step 1: Get posted data
+
+step 2: Verify validity of posted data
+
 
 
