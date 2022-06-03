@@ -78,12 +78,21 @@ to check it was installed
 ## Restful API Resource Method Chart
 
 
-we have to first import Resource library from flask
+we have to first import Api, and Resource library from flask
 
-     import flask from Flask, Resource
+     import flask from Flask, Api, Resource
      
      
 The resources can either be (+, -, /, * )
+
+
+## Setting our Api
+
+
+      import Api
+      app = Flask(__name__)
+      api = Api(app)
+      
 
 ## The syntax for creating an api
 
