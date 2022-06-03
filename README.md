@@ -149,6 +149,11 @@ step 1: Getting the posted data
          
 
          }
+         
+         
+         
+![image](https://user-images.githubusercontent.com/63984422/171791179-c2f328cf-e87c-406c-8f3d-8e258885e923.png)
+         
 
 step 2: Verify validity of posted data
 
