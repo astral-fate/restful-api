@@ -51,13 +51,13 @@ We tried a POST requset with the following server
 
 
 
-##What is a REST-FUL API?
+## What is a REST-FUL API?
 
 RESTFUL APIs are a style of server, that allow us to interract between the user interface and the requested info from the front-end user, then we procces the requests of the user, to provides the user with a response.
 
 
 
-##installing flask-restful 
+## Installing flask-restful 
 
 
 
@@ -75,7 +75,7 @@ to check it was installed
 
 
 
-##Restful API Resource Method Chart
+## Restful API Resource Method Chart
 
 
 we have to first import Resource library from flask
@@ -85,12 +85,12 @@ we have to first import Resource library from flask
      
 The resources can either be (+, -, /, * )
 
-##The syntax for creating an api
+## The syntax for creating an api
 
      Resource(+, -, /, * ) Method(POST, GET, PUT, DELETE) PATH(/NameOfPath) usedfor Parameter ErrorCode
      
 
-##Example on RESTFUL API 
+## Example on RESTFUL API 
 
 
 We first have to define a class for our Api, for example
@@ -120,7 +120,7 @@ We  first want to focus on one class, that is AddNumber, hence we will be adding
         pass
 
 
-##Getting the posted data  
+## Getting the posted data  
 
 step 1: Get posted data
 
