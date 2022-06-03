@@ -49,3 +49,15 @@ We tried a POST requset with the following server
 ![image](https://user-images.githubusercontent.com/63984422/171554885-535b5c1c-2517-4ad3-ba40-daf72784d416.png)
 
 
+We install flask_restful as follows
+
+      pip3 install flask-restful
+      
+to check it was installed
+      python3
+      import flask_restful as fr
+      
+![image](https://user-images.githubusercontent.com/63984422/171782651-7b35571c-ebd1-4410-bce9-5753b609a188.png)
+      
+
+
