@@ -122,7 +122,20 @@ We  first want to focus on one class, that is AddNumber, hence we will be adding
 
 ## Getting the posted data  
 
-step 1: Get posted data
+step 1: Getting the posted data
+
+        postedData = request.get_json()
+        x=postedData["x"]
+        y =postedData["y]
+        x=int(x)
+        y=int(y)
+        sum = x+y
+        retMap = {
+
+          "Summation": sum
+         
+
+         }
 
 step 2: Verify validity of posted data
 
