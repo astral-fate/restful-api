@@ -196,4 +196,7 @@ step 2: Verify validity of posted data
 
 ![image](https://user-images.githubusercontent.com/63984422/171985628-2eb698cd-780b-41bc-a50c-c72824986001.png)
 
+## Instaking Docker Compose
+
+![image](https://user-images.githubusercontent.com/63984422/171985979-467c5846-ff8b-42c7-8843-5552a007335e.png)
 
