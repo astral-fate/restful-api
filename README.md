@@ -163,9 +163,20 @@ step 2: Verify validity of posted data
       return 301
         else:
        return 200
+       
+       
+       status_code = checkPostedData(postedData, "add")
+       
+       
+       if (stauts_code!=200):
+       retJson = {
+       "Message": "An error happend
+       "Status": status_code
+       }
+       return jsonify(retJson)
 
 
-      status_code = checkPostedData(postedData, "add")
+ 
 
 
 
