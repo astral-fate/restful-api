@@ -185,3 +185,8 @@ step 2: Verify validity of posted data
 ![image](https://user-images.githubusercontent.com/63984422/171983498-99aa2ac4-b0ef-4afc-8a1a-52eb2c1799ec.png)
 
 
+
+
+## Installing Docker
+
+![image](https://user-images.githubusercontent.com/63984422/171984996-183b6ac9-4b9a-4f55-a87a-13b5c4fb23a4.png)
