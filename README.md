@@ -157,26 +157,31 @@ step 1: Getting the posted data
 
 step 2: Verify validity of posted data
 
-      def checkPostedData(postedData, functionName):
-        if (functionName=="add"):
-        if "x" not in postedData or "y" not in postedData:
-      return 301
-        else:
-       return 200
+       def checkPostedData(PostedData, functionName):
+           if (functionName=="AddNumbers"):
+               if "x" not in PostedData or "y" not in PostedData:
+                   return 301
+               else:
+
+                   return 200
        
        
        status_code = checkPostedData(postedData, "add")
        
        
-       if (stauts_code!=200):
-       retJson = {
-       "Message": "An error happend
-       "Status": status_code
-       }
-       return jsonify(retJson)
+       
+        if (status_code!=200):
+            retJson = {
+            "Message": "An error happend",
+            "Status": status_code
+            }
+            return jsonify(retJson)
+            
+            
 
 
  
 
+![image](https://user-images.githubusercontent.com/63984422/171983498-99aa2ac4-b0ef-4afc-8a1a-52eb2c1799ec.png)
 
 
