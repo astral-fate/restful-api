@@ -157,5 +157,15 @@ step 1: Getting the posted data
 
 step 2: Verify validity of posted data
 
+      def checkPostedData(postedData, functionName):
+        if (functionName=="add"):
+        if "x" not in postedData or "y" not in postedData:
+      return 301
+        else:
+       return 200
+
+
+      status_code = checkPostedData(postedData, "add")
+
 
 
