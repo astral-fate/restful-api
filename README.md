@@ -200,3 +200,6 @@ step 2: Verify validity of posted data
 
 ![image](https://user-images.githubusercontent.com/63984422/171985979-467c5846-ff8b-42c7-8843-5552a007335e.png)
 
+
+![image](https://user-images.githubusercontent.com/63984422/171986131-34a5226d-6cce-4f37-9349-7341c0dd5ab3.png)
+
