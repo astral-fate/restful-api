@@ -190,3 +190,10 @@ step 2: Verify validity of posted data
 ## Installing Docker
 
 ![image](https://user-images.githubusercontent.com/63984422/171984996-183b6ac9-4b9a-4f55-a87a-13b5c4fb23a4.png)
+
+
+![image](https://user-images.githubusercontent.com/63984422/171985069-f5c67144-90c2-48bd-9911-743ba1fe4464.png)
+
+![image](https://user-images.githubusercontent.com/63984422/171985628-2eb698cd-780b-41bc-a50c-c72824986001.png)
+
+
