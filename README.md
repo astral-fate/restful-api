@@ -196,10 +196,24 @@ step 2: Verify validity of posted data
 
 ![image](https://user-images.githubusercontent.com/63984422/171985628-2eb698cd-780b-41bc-a50c-c72824986001.png)
 
-## Instaking Docker Compose
+## Installing Docker Compose
+
+By writing these commands to install Docker Compose verison 2.5 from repositary
+
+  sudo curl -L https://github.com/docker/compose/releases/download/2.5/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose 
+  
+
 
 ![image](https://user-images.githubusercontent.com/63984422/171985979-467c5846-ff8b-42c7-8843-5552a007335e.png)
 
+
+Then we set the path of Docker Compose
+
+ sudo chmod +x /usr/local/bin/docker-compose
+  
+To check which version we have, we write the following command  
+
+docker-compose --version
 
 ![image](https://user-images.githubusercontent.com/63984422/171986131-34a5226d-6cce-4f37-9349-7341c0dd5ab3.png)
 
