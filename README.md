@@ -200,7 +200,7 @@ step 2: Verify validity of posted data
 
 By writing these commands to install Docker Compose verison 2.5 from repositary
 
-  sudo curl -L https://github.com/docker/compose/releases/download/2.5/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose 
+       sudo curl -L https://github.com/docker/compose/releases/download/2.5/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose 
   
 
 
@@ -209,11 +209,11 @@ By writing these commands to install Docker Compose verison 2.5 from repositary
 
 Then we set the path of Docker Compose
 
- sudo chmod +x /usr/local/bin/docker-compose
+      sudo chmod +x /usr/local/bin/docker-compose
   
 To check which version we have, we write the following command  
 
-docker-compose --version
+      docker compose version
 
 ![image](https://user-images.githubusercontent.com/63984422/171986131-34a5226d-6cce-4f37-9349-7341c0dd5ab3.png)
 
