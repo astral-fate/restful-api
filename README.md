@@ -218,6 +218,15 @@ To check which version we have, we write the following command
 ![image](https://user-images.githubusercontent.com/63984422/171986131-34a5226d-6cce-4f37-9349-7341c0dd5ab3.png)
 
 
+## Running & Building Docker compose
+
+      sudo docker compose build
+      
+      
+![image](https://user-images.githubusercontent.com/63984422/173213450-09e7fb92-a02b-4c61-a53c-cc7af7a14b00.png)
+
+
+
 ## Refrences 
 
 https://stackoverflow.com/questions/38775954/sudo-docker-compose-command-not-found
