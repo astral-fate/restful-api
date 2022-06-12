@@ -229,9 +229,18 @@ We have to be at the same directory as the .yml file, then we write
       docker compose up
       
       
+We have to set the port first 
+
+       if __name__=="__main__":
+    app.run(host='0.0.0.0')
+      
+      
 ![image](https://user-images.githubusercontent.com/63984422/173213450-09e7fb92-a02b-4c61-a53c-cc7af7a14b00.png)
 
 ![image](https://user-images.githubusercontent.com/63984422/173214050-bd20d7a8-4b9f-4c32-a6bd-37ff862a1cc9.png)
+
+![image](https://user-images.githubusercontent.com/63984422/173214596-3fd9edd9-ecdc-43c9-bade-9c5813604912.png)
+
 
 
 
