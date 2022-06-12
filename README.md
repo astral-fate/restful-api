@@ -220,10 +220,18 @@ To check which version we have, we write the following command
 
 ## Running & Building Docker compose
 
+
+
+We have to be at the same directory as the .yml file, then we write
+
+
       sudo docker compose build
+      docker compose up
       
       
 ![image](https://user-images.githubusercontent.com/63984422/173213450-09e7fb92-a02b-4c61-a53c-cc7af7a14b00.png)
+
+![image](https://user-images.githubusercontent.com/63984422/173214050-bd20d7a8-4b9f-4c32-a6bd-37ff862a1cc9.png)
 
 
 
